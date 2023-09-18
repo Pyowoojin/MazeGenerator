@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 45fbdc48f42b0f840b56a298c1b6235c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Nanum BaReunHiPi
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: d686b481719b5fe4382cc674a6c807e8, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

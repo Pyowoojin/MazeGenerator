@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1096074466011976998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1096074466011976999}
+  - component: {fileID: 1096074466011976992}
+  m_Layer: 0
+  m_Name: BlockSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 7422848464349959988, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1096074466011976999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096074466011976998}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7, y: 17, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1096074466011976992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096074466011976998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9627653fda031ac46a46f9cbac0da579, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blocks:
+  - {fileID: 8712421768245293286, guid: 1ca17bab5d8950b44845aa6e6302d38d, type: 3}
+  - {fileID: 4640818560964297424, guid: 3e9d78f9ef1b4034f937185d9d89ae2c, type: 3}
+  - {fileID: 5306737460807964572, guid: 2805f9c17e69d5742a27191f4a9021be, type: 3}
+  - {fileID: 7259353168758018944, guid: 132db13335cc1ab4c99ed1153f6840c8, type: 3}
+  - {fileID: 3882798028379123500, guid: e1ecce84de3717a4d90586a70580fde9, type: 3}
+  - {fileID: 7790331392263936710, guid: 1b9126a132529de489155c50233966f0, type: 3}
+  - {fileID: 7725139539331421556, guid: 8cb5657b66ade6c41b168b90d5726699, type: 3}
+  blockSize: 7
+  score: 0
