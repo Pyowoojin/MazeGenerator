@@ -1,7 +1,17 @@
+<<<<<<< HEAD
+# Created by https://www.toptal.com/developers/gitignore/api/unity
+# Edit at https://www.toptal.com/developers/gitignore?templates=unity
+
+### Unity ###
+# This .gitignore file should be placed at the root of your Unity project directory
+#
+# Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
+=======
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
+>>>>>>> 16142dc8af51814d7bf075e1e3f59abfc4c46baf
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -16,6 +26,8 @@
 
 # Recordings can get excessive in size
 /[Rr]ecordings/
+
+*lld
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
@@ -70,3 +82,8 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+<<<<<<< HEAD
+
+# End of https://www.toptal.com/developers/gitignore/api/unity
+=======
+>>>>>>> 16142dc8af51814d7bf075e1e3f59abfc4c46baf
